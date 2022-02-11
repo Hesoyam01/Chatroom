@@ -103,6 +103,7 @@ _deps
 # Ignore all local history of files
 .history
 .vs
+out
 
 # End of https://www.gitignore.io/api/c,c++,cmake,visualstudiocode
 
