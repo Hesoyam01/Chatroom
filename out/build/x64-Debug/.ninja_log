@@ -1,0 +1,25 @@
+# ninja log v5
+0	141	6662958121294891	pahomqttc-prefix/src/pahomqttc-stamp/pahomqttc-mkdir	914a882e458df7d5
+7423	9500	6662958214873947	pahomqttc-prefix/src/pahomqttc-stamp/pahomqttc-build	98db42be7638459d
+142	5997	6662958179846194	pahomqttc-prefix/src/pahomqttc-stamp/pahomqttc-download	490f6236b56ac6ac
+6039	6078	6662958180666196	pahomqttc-prefix/src/pahomqttc-stamp/pahomqttc-patch	1e652d86a7aee377
+0	141	6662958121294891	C:/Users/joshu/source/repos/mqtt-paho-client-app-cmake-example/out/build/x64-Debug/pahomqttc-prefix/src/pahomqttc-stamp/pahomqttc-mkdir	914a882e458df7d5
+9808	9884	6662958218716669	CMakeFiles/pahomqttc-complete	bb34bab3ea318044
+142	5997	6662958179846194	C:/Users/joshu/source/repos/mqtt-paho-client-app-cmake-example/out/build/x64-Debug/pahomqttc-prefix/src/pahomqttc-stamp/pahomqttc-download	490f6236b56ac6ac
+6039	6078	6662958180666196	C:/Users/joshu/source/repos/mqtt-paho-client-app-cmake-example/out/build/x64-Debug/pahomqttc-prefix/src/pahomqttc-stamp/pahomqttc-patch	1e652d86a7aee377
+5997	6039	6662958180266208	pahomqttc-prefix/src/pahomqttc-stamp/pahomqttc-update	d4cb3bc96019462c
+5997	6039	6662958180266208	C:/Users/joshu/source/repos/mqtt-paho-client-app-cmake-example/out/build/x64-Debug/pahomqttc-prefix/src/pahomqttc-stamp/pahomqttc-update	d4cb3bc96019462c
+6079	7423	6662958194106173	pahomqttc-prefix/src/pahomqttc-stamp/pahomqttc-configure	6f9732cd4cf13cb7
+6079	7423	6662958194106173	C:/Users/joshu/source/repos/mqtt-paho-client-app-cmake-example/out/build/x64-Debug/pahomqttc-prefix/src/pahomqttc-stamp/pahomqttc-configure	6f9732cd4cf13cb7
+7423	9500	6662958214873947	C:/Users/joshu/source/repos/mqtt-paho-client-app-cmake-example/out/build/x64-Debug/pahomqttc-prefix/src/pahomqttc-stamp/pahomqttc-build	98db42be7638459d
+9502	9808	6662958217955927	pahomqttc-prefix/src/pahomqttc-stamp/pahomqttc-install	fe697b6767aaf0a5
+9502	9808	6662958217955927	C:/Users/joshu/source/repos/mqtt-paho-client-app-cmake-example/out/build/x64-Debug/pahomqttc-prefix/src/pahomqttc-stamp/pahomqttc-install	fe697b6767aaf0a5
+9808	9884	6662958218716669	pahomqttc-prefix/src/pahomqttc-stamp/pahomqttc-done	bb34bab3ea318044
+9808	9884	6662958218716669	C:/Users/joshu/source/repos/mqtt-paho-client-app-cmake-example/out/build/x64-Debug/pahomqttc-prefix/src/pahomqttc-stamp/pahomqttc-done	bb34bab3ea318044
+9808	9884	6662958218716669	C:/Users/joshu/source/repos/mqtt-paho-client-app-cmake-example/out/build/x64-Debug/CMakeFiles/pahomqttc-complete	bb34bab3ea318044
+9886	9945	6662958219306652	CMakeFiles/paho_c_pub.dir/src/pubsub_opts.c.obj	d224ce685a112c5e
+9884	10105	6662958220895853	CMakeFiles/paho_c_pub.dir/src/paho_c_pub.c.obj	43e8deb3e19d1809
+47	150	6662970573134071	paho_c_pub.exe	f1d3c4680ef4a4e1
+0	46	6662970572304066	CMakeFiles/paho_c_pub.dir/src/main.c.obj	3a2da7d28c92b921
+1	165	6662972004634853	CMakeFiles/chatroom.dir/src/main.c.obj	1316c71eb698f5da
+165	383	6662972006724817	chatroom.exe	5c304c4ff1542f35
