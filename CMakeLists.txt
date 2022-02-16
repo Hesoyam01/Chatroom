@@ -36,7 +36,7 @@ endif()
 
 if (UNIX)
   list(APPEND libs
-    # ${CMAKE_INSTALL_PREFIX}/lib/libpaho-mqttv3a.so
+    # ${CMAKE_INSTALL_PREFIX}/lib/libpaho-mqttv3c.so
     ${install_dir}/lib/libpaho-mqtt3a.so
     #-lz
   )
