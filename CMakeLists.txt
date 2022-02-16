@@ -27,6 +27,7 @@ INCLUDE_DIRECTORIES(
 
 if (WIN32)
   ADD_DEFINITIONS(/DCMAKE_BUILD /D_CRT_SECURE_NO_DEPRECATE)
+  configure_file(${CMAKE_INSTALL_PREFIX}/lib/paho-mqtt3a.dll ${CMAKE_CURRENT_BINARY_DIR}/paho-mqtt3a.dll COPYONLY)
   if (CMAKE_BUILD_TYPE STREQUAL "Release")
     list(APPEND libs ${CMAKE_INSTALL_PREFIX}/lib/paho-mqtt3a.lib)
   else()

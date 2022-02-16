@@ -22,13 +22,11 @@
 *.pch
 
 # Libraries
-*.lib
 *.a
 *.la
 *.lo
 
 # Shared objects (inc. Windows DLLs)
-*.dll
 *.so
 *.so.*
 *.dylib
@@ -103,7 +101,7 @@ _deps
 # Ignore all local history of files
 .history
 .vs
-out
+out/build
 
 # End of https://www.gitignore.io/api/c,c++,cmake,visualstudiocode
 
