@@ -14,7 +14,7 @@ The CLI application allows users to chat with multiple other users in various ch
 After selecting a username at start-up, the user connects to the default chatroom and they can start chatting.
 Own messages are colored in red while doing so.
 
-Some simple commands are also available for users. Commands are generally initiated with a starting !:
+Some simple commands are also available for users. Commands are generally initiated with a starting `!`:
 | Command           | Description                   |
 | ----------------- | ----------------------------- |
 | !help             | Shows all available commands. |
@@ -35,7 +35,7 @@ Chatrooms of this application are based on MQTT topics.
 MQTT Topics allow multiple clients to communicate with each other, if they are subscribed to the same topic and can consist of one or more topic levels.
 
 In this context all chatrooms can freely be chosen and are at topic level 1 while being unified with an unique topic identifer at topic level 0.
-Users can also join only one chatroom at a time with the help of `!switch ROOMNAME` instead of multiple ones to ease the usabilty in this project scope.
+Users can join only one chatroom at a time with the help of `!switch ROOMNAME` instead of multiple ones to ease the usabilty in regard to the project scope.
 In terms of MQTT, clients unsubscribe their current chatroom and then subscribe to the new one when they try to switch a room.
 
 The client currently connects to a public broker hosted by [HiveMQ](http://www.mqtt-dashboard.com/).
