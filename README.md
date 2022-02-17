@@ -6,7 +6,7 @@ This CLI chat application got developed as part of the programming course 1 at t
 
 ## Build
 Build CMakeLists.txt as CMake project.
-The .exe file is then located in out/build/x64-Debug/chatroom.exe and can be executed from there.
+The .exe file is then located in *out/build/x64-Debug/chatroom.exe* and can be executed from there.
 Required .h, .lib and .dll files get added to the right folders and get linked accordingly.
 
 ## Features
