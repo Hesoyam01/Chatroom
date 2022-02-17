@@ -35,7 +35,7 @@ Chatrooms of this application are based on MQTT topics.
 MQTT Topics allow multiple clients to communicate with each other, if they are subscribed to the same topic and can consist of one or more topic levels.
 
 In this context all chatrooms can freely be chosen and are at topic level 1 while being unified with an unique topic identifer at topic level 0.
-Users can join only one chatroom at a time with the help of `!switch ROOMNAME` instead of multiple ones to ease the usabilty in regard to the project scope.
+Users can join only one chatroom at a time with the help of `!switch ROOMNAME` instead of multiple ones to ease the useabilty due to the project scope.
 In terms of MQTT, clients unsubscribe their current chatroom and then subscribe to the new one when they try to switch a room.
 
 The client currently connects to a public broker hosted by [HiveMQ](http://www.mqtt-dashboard.com/).
