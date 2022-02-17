@@ -20,6 +20,7 @@ Some simple commands are also available for users. Commands are generally initia
 | !help             | Shows all available commands. |
 | !logout           | Logs out the user.            |
 | !switch ROOMNAME* | Changes the chatroom.         |
+
 **Chatroom names aren't predefined and can freely be chosen*
 
 The application currently connects to a public server to allow connecting at any time hence please do not use it for sensitive information! 
