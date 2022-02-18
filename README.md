@@ -23,7 +23,7 @@ Some simple commands are also available for users. Commands are generally initia
 
 **Chatroom names aren't predefined and can freely be chosen*
 
-The application currently connects to a public server to allow connecting at any time hence please do not use it for sensitive information! 
+The application currently connects to a public server to allow connecting at any time hence please do not use it for sensitive information!
 
 ## Implementation
 Project is build using CMake.
@@ -37,5 +37,7 @@ MQTT Topics allow multiple clients to communicate with each other, if they are s
 In this context all chatrooms can freely be chosen and are at topic level 1 while being unified with an unique topic identifer at topic level 0.
 Users can join only one chatroom at a time with the help of `!switch ROOMNAME` instead of multiple ones to ease the useabilty due to the project scope.
 In terms of MQTT, clients unsubscribe their current chatroom and then subscribe to the new one when they try to switch a room.
+
+Furthermore it is required to use a CLI with ANSI escape sequences support to enable coloring. 
 
 The client currently connects to a public broker hosted by [HiveMQ](http://www.mqtt-dashboard.com/).
